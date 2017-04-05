@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" href="styles.css">
 	<script src="main.js"></script>
+
 </head>
 <body>
 
@@ -13,13 +14,14 @@
 
 <nav class="sidebar">
 <p class="topnav">Categorías</p>
-<ul>
-<li><a class="active" href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="books.html">Books</a></li>
-<li><a href="movies.html">Movies</a></li>
-</ul>
+<p id="text"></p>
+<script>
+var list = "<ul>";
+for (i = 0; i < catleng; i++) {list += "<li>" + categ[i] + "</li>";}
+list += "</ul>";
+document.getElementById("text").innerHTML = list;</script>
 </nav>
+
 
 </body>
 </html>
