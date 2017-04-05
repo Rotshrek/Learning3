@@ -8,8 +8,8 @@ nav.sidebar {
 	width: 20%;
 	font-family: open sans;
 	font-size: 0.9em;
-	border: solid 2px indianred;
-	background-color: indianred;
+	border: solid 2px firebrick;
+	background-color: firebrick;
 	border-radius: 10px;
 	margin: 10px;
 	padding: 0;
@@ -39,9 +39,10 @@ nav.sidebar li a {
 	text-decoration: none;}
 
 nav.sidebar li a.active {
-	color: darksalmon;
+	color: firebrick;
 }
 
 nav.sidebar li a:hover {
 	color: salmon;
 }
+
