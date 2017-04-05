@@ -9,7 +9,7 @@
 <body>
 
 <header>
-<img src="logo.png" alt:"Soy-el-logo" width="20%">
+<img src="logo.png" alt="Soy-el-logo" width="20%">
 </header>
 
 <nav class="sidebar">
@@ -17,11 +17,10 @@
 <p id="text"></p>
 <script>
 var list = "<ul>";
-for (i = 0; i < catleng; i++) {list += "<li>" + categ[i] + "</li>";}
+for (i = 0; i < catleng; i++) {list += "<li>" + "<a href=" + categ[i] + ".html>" + categ[i] + "</a>" + "</li>";}
 list += "</ul>";
 document.getElementById("text").innerHTML = list;</script>
 </nav>
-
 
 </body>
 </html>
