@@ -49,3 +49,39 @@ nav.sidebar li a:hover {
 	color: salmon;
 }
 
+.carousel {
+	width: 100%;
+	overflow: hidden;
+}
+
+.panes {
+	width: 400%;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+	animation: carousel 30s infinite;
+}
+
+.panes li {
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+.carousel img{
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+@keyframes carousel {
+	0% {left: 0;}
+	22.5% {left: 0;}
+	25% {left: -100%;}
+	47.5% {left: -100%;}
+	50% {left: -200%;}
+	72.5% {left: -200%;}
+	75% {left: -300%;}
+	97.5% {left: -300%;}
+	100% {left: 0;}
+}
