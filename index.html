@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" href="styles.css">
 	<script src="main.js"></script>
+	<script src="articles.js"></script>
 
 </head>
 <body>
@@ -31,28 +32,14 @@ document.getElementById("text").innerHTML = list;</script>
 </ul>
 </div>
 
-<section style="margin-left: 22%; margin-top: 10px">
-<div class=articulo>
-<img src="/img/dino1.jpg" alt="dino1">
-<p>Soy una descripción</p>
-</div>
+<section id=sec1 style="margin-left: 22%; margin-top: 10px">
+<!-- De aca para abajo van a la derecha -->
 
-<div class=articulo>
-<img src="/img/dino1.jpg" alt="dino1">
-<p>Soy una descripción</p>
-</div>
-
-<div class=articulo>
-<img src="/img/dino1.jpg" alt="dino1">
-<p>Soy una descripción</p>
-</div>
-
-<p id=text2></p>
 <script>
-	var arts = "<div class=articulo>";
-	for (i = 0; i < artleng; i++) {arts += art[i] + .img + "<p>" + art[i] + "</p>";}
-		arts += "</div>";
-	document.getElementById("text2").innerHTML = arts; 
+	var arts = "<article>";
+	for (i = 0; i < artleng; i++) {arts += "<div class=articulo>" + "<img src='" + art[i].img + "' alt='" + art[i].name + "'>" + "<p>" + art[i].desc + "</p>" + "</div>";}
+		arts += "</article>";
+	document.getElementById("sec1").innerHTML = arts; 
 </script>
 </section>
 

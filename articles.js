@@ -1,7 +1,28 @@
-var art = [];
+var art = [
+	{name:"Alosaurio", img:"/img/alosaurio.jpg", desc:"Soy un alosaurio"},
+	{name:"Tiranosaurio", img:"/img/tiranosaurio.jpg", desc:"Soy un tiranosaurio"},
+	{name:"Triceratops", img:"/img/triceratops.jpg", desc:"En realidad me llamo torosaurio"},
+	{name:"Anquilosaurio", img:"/img/anquilosaurio.jpg", desc:"Ráscame la wata"},
+	{name:"Brontosaurio", img:"/img/brontosaurio.jpg", desc:"Cuello largo"},
+	{name:"Paquicefalosaurio", img:"/img/paqui.jpg", desc:"Golpea cosas con la cabeza"},
+	{name:"Velocirraptor", img:"/img/raptor.jpg", desc:"Estoy emparentado con las viejas del metro"},
+	{name:"Compsognatus", img:"/img/compi.jpg", desc:"Soy chuiquilin"},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+	{name:"", img:"/img/", desc:""},
+];
 var artleng = art.length;
-var art[1] = {img : "/img/alosaurio.jpg", desc : "Soy un alosaurio"};
-var art [2] = {img : "/img/tiranosaurio.jpg", desc : "Soy un tiranosaurio"}
-var art [3] = {img : "/img/triceratops.jpg", desc : "Soy un triceratops"}
-var art [4] = {img : "/img/anquilosaurio.jpg", desc : "Soy un anquilosaurio"}
-var art [5] = {img : "/img/brontosaurio.jpg", desc : "Soy un brontosaurio"}
+var x;

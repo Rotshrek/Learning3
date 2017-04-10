@@ -1,11 +1,11 @@
 var categ = ["Movies", "Books", "Musics", "Series", "Cars", "Instruments", "Small Animals", "Danis", "Big Animals", "Dinosaurs", "Pencils", "Trees", "Tomatoes", "Spunkies", "Clouds", "Catapults", "Airplanes", "Bugs", "Roads"];
 var catleng = categ.length;
 var i;
-
-var art = [];
+var art = [
+	{name: "Alosaurio", img : "/img/alosaurio.jpg", desc : "Soy un alosaurio"},
+	{name: "Tiranosaurio", img : "/img/tiranosaurio.jpg", desc : "Soy un tiranosaurio"},
+	{name: "Triceratops", img : "/img/triceratops.jpg", desc : "Soy un triceratops"},
+	{name: "Anquilosaurio", img : "/img/anquilosaurio.jpg", desc : "Soy un anquilosaurio"},
+	{name: "Brontosaurio", img : "/img/brontosaurio.jpg", desc : "Soy un brontosaurio"}
+];
 var artleng = art.length;
-var art[1] = {img : "/img/alosaurio.jpg", desc : "Soy un alosaurio"};
-var art [2] = {img : "/img/tiranosaurio.jpg", desc : "Soy un tiranosaurio"}
-var art [3] = {img : "/img/triceratops.jpg", desc : "Soy un triceratops"}
-var art [4] = {img : "/img/anquilosaurio.jpg", desc : "Soy un anquilosaurio"}
-var art [5] = {img : "/img/brontosaurio.jpg", desc : "Soy un brontosaurio"}

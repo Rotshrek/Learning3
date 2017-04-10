@@ -96,10 +96,12 @@ nav.sidebar li a:hover {
 
 .articulo {
 	width: 150px;
-	height: 200px;
+	height: 230px;
 	background-color: grey;
 	text-align: center;
 	display: inline-block;
+	margin-left: 10px;
+	overflow: hidden;
 }
 
 .articulo img {
