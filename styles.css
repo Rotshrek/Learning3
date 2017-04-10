@@ -9,7 +9,7 @@ body {
 }
 
 nav.sidebar {
-	width: 200px;
+	width: 20%;
 	font-family: open sans;
 	font-size: 0.9em;
 	border: solid 2px firebrick;
@@ -55,10 +55,10 @@ nav.sidebar li a:hover {
 }
 
 .carousel {
-	width: 80%;
+	width: 75%;
 	overflow: hidden;
 	height: 500px;
-	margin-left: 220px;
+	margin-left: 22%;
 }
 
 .panes {
@@ -92,4 +92,22 @@ nav.sidebar li a:hover {
 	75% {left: -300%;}
 	97.5% {left: -300%;}
 	100% {left: 0;}
+}
+
+.articulo {
+	width: 150px;
+	height: 200px;
+	background-color: grey;
+	text-align: center;
+	display: inline-block;
+}
+
+.articulo img {
+	width: 90%;
+	height: 150px;
+	margin-top: 5px;
+}
+
+.articulo p {
+	margin-top: 5px;
 }
