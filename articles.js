@@ -7,6 +7,10 @@ var art = [
 	{name:"Paquicefalosaurio", img:"/img/paqui.jpg", desc:"Golpea cosas con la cabeza", size:1, fam:"Ornitisquia"},
 	{name:"Velocirraptor", img:"/img/raptor.jpg", desc:"Emparentado con las viejas del metro", size:1, fam:"Terópodo"},
 	{name:"Compsognatus", img:"/img/compi.jpg", desc:"Soy chuiquilin", size:0.3, fam:"Terópodo"},
+	{name:"Iguanodón", img:"/img/iguan.jpg", desc:"Iguanas a mi!", size:4, fam:"Ornitisquia"},
+	{name:"Estegosaurio", img:"/img/estego.jpg", desc:"Este goza saurio", size:4, fam:"Ornitisquia"},
+	{name:"Pteranodón", img:"/img/ptera.jpg", desc:"Mis alas son mis manitas", size:1, fam:"Pterosaurio"},
+	{name:"Ictiosaurio", img:"/img/icti.jpg", desc:"Soy el delfín antiguo", size:1, fam:"Ictioperagia"},
 ];
 var artleng = art.length;
 var x;
