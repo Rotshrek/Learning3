@@ -12,6 +12,8 @@
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "jquery": "^3.2.1",
-    "slick": "^1.12.2"
+    "jquery-migrate": "^3.0.0",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.6.0"
   }
 }

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Soy un catálogo</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 	<script src="main.js"></script>
 	<script src="articles.js"></script>
-
+	
 </head>
 <body>
 
@@ -25,11 +27,18 @@ document.getElementById("text").innerHTML = list;</script>
 
 <div class=carousel>
 <ul class=panes>
-<li><img src="/img/dino1.jpg" alt="dino1"></li>
-<li><img src="/img/dino2.jpeg" alt="dino2"></li>
+<li><a href="index.html"><img src="/img/dino1.jpg" alt="dino1"></a></li>
+<li><a href="index.html"><img src="/img/dino2.jpeg" alt="dino2"></a></li>
 <li><img src="/img/dino3.jpeg" alt="dino3"></li>
 <li><img src="/img/dino4.jpg" alt="dino4"></li>
 </ul>
+</div>
+
+<div class="carus">
+<div><img src="/img/dino1.jpg" alt="dino1"></div>
+<div><img src="/img/dino2.jpeg" alt="dino2"></div>
+<div><img src="/img/dino3.jpeg" alt="dino3"></div>
+<div><img src="/img/dino4.jpg" alt="dino4"></div>
 </div>
 
 <div style="margin-left: 22%">
@@ -43,6 +52,27 @@ document.getElementById("text").innerHTML = list;</script>
 articles ();
 </script>
 </section>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(function() { alert('Hola, Jquery funciona') 
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.carus').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
+</script>
 
 </body>
 </html>
