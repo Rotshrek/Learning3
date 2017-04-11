@@ -32,12 +32,15 @@ document.getElementById("text").innerHTML = list;</script>
 </ul>
 </div>
 
+<div style="margin-left: 22%">
+<button onclick="sortname()">Sort by name</button>
+<button onclick="sortsize()">Sort by size</button>
+<button onclick="sortfam()">Sort by family</button>
+</div>
+
 <section id=sec1 style="margin-left: 22%; margin-top: 10px">
 <script>
-	var arts = "<article>";
-	for (i = 0; i < artleng; i++) {arts += "<div class=articulo>" + "<img src='" + art[i].img + "' alt='" + art[i].name + "'>" + "<p>" + art[i].desc + "</p>" + "</div>";}
-		arts += "</article>";
-	document.getElementById("sec1").innerHTML = arts; 
+articles ();
 </script>
 </section>
 

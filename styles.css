@@ -96,20 +96,31 @@ nav.sidebar li a:hover {
 
 .articulo {
 	width: 150px;
-	height: 230px;
-	background-color: grey;
+	height: 300px;
+	background-color: gainsboro;
 	text-align: center;
 	display: inline-block;
+	margin-top: 10px;
 	margin-left: 10px;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .articulo img {
-	width: 90%;
-	height: 150px;
+	height: 200px;
 	margin-top: 5px;
+	clip-path: rect(10px, 100px, 200px, 10px);
 }
 
-.articulo p {
+.articulo p.desc {
+	margin: 5%;
+	font-family: open sans;
 	margin-top: 5px;
+	line-height: 18px;
+}
+
+.articulo p.fam {
+	font-family: open sans;
+	font-size: 0.7em;
+	font-style: italic;
 }
